@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		561807E11F78336600FB7A73 /* Ball Clock Simulator.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 56DA87361D4EA1CB00237581 /* Ball Clock Simulator.entitlements */; };
+		563E983A1D4E2FC800101315 /* AlertSheetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563E98391D4E2FC800101315 /* AlertSheetController.swift */; };
+		563E983C1D4E300C00101315 /* BallClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563E983B1D4E300C00101315 /* BallClock.swift */; };
+		5673AA7A1F7C77CF00A9EE26 /* BallClockSimulatorHelp in Resources */ = {isa = PBXBuildFile; fileRef = 5673AA791F7C77C600A9EE26 /* BallClockSimulatorHelp */; };
+		56B36D441D4E313600950F54 /* License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 56B36D431D4E313600950F54 /* License.txt */; };
+		56F2BE9A1D4E2F3800F8FB26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F2BE991D4E2F3800F8FB26 /* AppDelegate.swift */; };
+		56F2BE9C1D4E2F3800F8FB26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F2BE9B1D4E2F3800F8FB26 /* ViewController.swift */; };
+		56F2BE9E1D4E2F3800F8FB26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56F2BE9D1D4E2F3800F8FB26 /* Assets.xcassets */; };
+		56F2BEA11D4E2F3800F8FB26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56F2BE9F1D4E2F3800F8FB26 /* Main.storyboard */; };
+		56F2BEAC1D4E2F3800F8FB26 /* Ball_Clock_SimulatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F2BEAB1D4E2F3800F8FB26 /* Ball_Clock_SimulatorTests.swift */; };
+		56F2BEB71D4E2F3800F8FB26 /* Ball_Clock_SimulatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F2BEB61D4E2F3800F8FB26 /* Ball_Clock_SimulatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56F2BEA81D4E2F3800F8FB26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56F2BE8E1D4E2F3800F8FB26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56F2BE951D4E2F3800F8FB26;
+			remoteInfo = "Ball Clock Simulator";
+		};
+		56F2BEB31D4E2F3800F8FB26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56F2BE8E1D4E2F3800F8FB26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56F2BE951D4E2F3800F8FB26;
+			remoteInfo = "Ball Clock Simulator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		563E98391D4E2FC800101315 /* AlertSheetController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertSheetController.swift; sourceTree = "<group>"; };
+		563E983B1D4E300C00101315 /* BallClock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BallClock.swift; sourceTree = "<group>"; };
+		5673AA791F7C77C600A9EE26 /* BallClockSimulatorHelp */ = {isa = PBXFileReference; lastKnownFileType = folder; path = BallClockSimulatorHelp; sourceTree = "<group>"; };
+		56B36D431D4E313600950F54 /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
+		56DA87361D4EA1CB00237581 /* Ball Clock Simulator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Ball Clock Simulator.entitlements"; sourceTree = "<group>"; };
+		56F2BE961D4E2F3800F8FB26 /* Ball Clock Simulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ball Clock Simulator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56F2BE991D4E2F3800F8FB26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		56F2BE9B1D4E2F3800F8FB26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		56F2BE9D1D4E2F3800F8FB26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56F2BEA01D4E2F3800F8FB26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		56F2BEA21D4E2F3800F8FB26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56F2BEA71D4E2F3800F8FB26 /* Ball Clock SimulatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ball Clock SimulatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56F2BEAB1D4E2F3800F8FB26 /* Ball_Clock_SimulatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ball_Clock_SimulatorTests.swift; sourceTree = "<group>"; };
+		56F2BEAD1D4E2F3800F8FB26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56F2BEB21D4E2F3800F8FB26 /* Ball Clock SimulatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ball Clock SimulatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56F2BEB61D4E2F3800F8FB26 /* Ball_Clock_SimulatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ball_Clock_SimulatorUITests.swift; sourceTree = "<group>"; };
+		56F2BEB81D4E2F3800F8FB26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56F2BE931D4E2F3800F8FB26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56F2BEA41D4E2F3800F8FB26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56F2BEAF1D4E2F3800F8FB26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		563E983D1D4E304300101315 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				563E983B1D4E300C00101315 /* BallClock.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		563E983E1D4E305800101315 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				563E98391D4E2FC800101315 /* AlertSheetController.swift */,
+				56F2BE9B1D4E2F3800F8FB26 /* ViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		56F2BE8D1D4E2F3800F8FB26 = {
+			isa = PBXGroup;
+			children = (
+				56B36D431D4E313600950F54 /* License.txt */,
+				56F2BE981D4E2F3800F8FB26 /* Ball Clock Simulator */,
+				56F2BEAA1D4E2F3800F8FB26 /* Ball Clock SimulatorTests */,
+				56F2BEB51D4E2F3800F8FB26 /* Ball Clock SimulatorUITests */,
+				56F2BE971D4E2F3800F8FB26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		56F2BE971D4E2F3800F8FB26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56F2BE961D4E2F3800F8FB26 /* Ball Clock Simulator.app */,
+				56F2BEA71D4E2F3800F8FB26 /* Ball Clock SimulatorTests.xctest */,
+				56F2BEB21D4E2F3800F8FB26 /* Ball Clock SimulatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56F2BE981D4E2F3800F8FB26 /* Ball Clock Simulator */ = {
+			isa = PBXGroup;
+			children = (
+				56DA87361D4EA1CB00237581 /* Ball Clock Simulator.entitlements */,
+				56F2BE9F1D4E2F3800F8FB26 /* Main.storyboard */,
+				56F2BE991D4E2F3800F8FB26 /* AppDelegate.swift */,
+				563E983E1D4E305800101315 /* Controllers */,
+				563E983D1D4E304300101315 /* Classes */,
+				5673AA791F7C77C600A9EE26 /* BallClockSimulatorHelp */,
+				56F2BE9D1D4E2F3800F8FB26 /* Assets.xcassets */,
+				56F2BEA21D4E2F3800F8FB26 /* Info.plist */,
+			);
+			path = "Ball Clock Simulator";
+			sourceTree = "<group>";
+		};
+		56F2BEAA1D4E2F3800F8FB26 /* Ball Clock SimulatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				56F2BEAB1D4E2F3800F8FB26 /* Ball_Clock_SimulatorTests.swift */,
+				56F2BEAD1D4E2F3800F8FB26 /* Info.plist */,
+			);
+			path = "Ball Clock SimulatorTests";
+			sourceTree = "<group>";
+		};
+		56F2BEB51D4E2F3800F8FB26 /* Ball Clock SimulatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				56F2BEB61D4E2F3800F8FB26 /* Ball_Clock_SimulatorUITests.swift */,
+				56F2BEB81D4E2F3800F8FB26 /* Info.plist */,
+			);
+			path = "Ball Clock SimulatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56F2BE951D4E2F3800F8FB26 /* Ball Clock Simulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56F2BEBB1D4E2F3800F8FB26 /* Build configuration list for PBXNativeTarget "Ball Clock Simulator" */;
+			buildPhases = (
+				56F2BE921D4E2F3800F8FB26 /* Sources */,
+				56F2BE931D4E2F3800F8FB26 /* Frameworks */,
+				56F2BE941D4E2F3800F8FB26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ball Clock Simulator";
+			productName = "Ball Clock Simulator";
+			productReference = 56F2BE961D4E2F3800F8FB26 /* Ball Clock Simulator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		56F2BEA61D4E2F3800F8FB26 /* Ball Clock SimulatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56F2BEBE1D4E2F3800F8FB26 /* Build configuration list for PBXNativeTarget "Ball Clock SimulatorTests" */;
+			buildPhases = (
+				56F2BEA31D4E2F3800F8FB26 /* Sources */,
+				56F2BEA41D4E2F3800F8FB26 /* Frameworks */,
+				56F2BEA51D4E2F3800F8FB26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56F2BEA91D4E2F3800F8FB26 /* PBXTargetDependency */,
+			);
+			name = "Ball Clock SimulatorTests";
+			productName = "Ball Clock SimulatorTests";
+			productReference = 56F2BEA71D4E2F3800F8FB26 /* Ball Clock SimulatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		56F2BEB11D4E2F3800F8FB26 /* Ball Clock SimulatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56F2BEC11D4E2F3800F8FB26 /* Build configuration list for PBXNativeTarget "Ball Clock SimulatorUITests" */;
+			buildPhases = (
+				56F2BEAE1D4E2F3800F8FB26 /* Sources */,
+				56F2BEAF1D4E2F3800F8FB26 /* Frameworks */,
+				56F2BEB01D4E2F3800F8FB26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56F2BEB41D4E2F3800F8FB26 /* PBXTargetDependency */,
+			);
+			name = "Ball Clock SimulatorUITests";
+			productName = "Ball Clock SimulatorUITests";
+			productReference = 56F2BEB21D4E2F3800F8FB26 /* Ball Clock SimulatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56F2BE8E1D4E2F3800F8FB26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Barking Cosmos Software";
+				TargetAttributes = {
+					56F2BE951D4E2F3800F8FB26 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = Z9KURFAZ3F;
+						LastSwiftMigration = 0900;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+					56F2BEA61D4E2F3800F8FB26 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0900;
+						TestTargetID = 56F2BE951D4E2F3800F8FB26;
+					};
+					56F2BEB11D4E2F3800F8FB26 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0900;
+						TestTargetID = 56F2BE951D4E2F3800F8FB26;
+					};
+				};
+			};
+			buildConfigurationList = 56F2BE911D4E2F3800F8FB26 /* Build configuration list for PBXProject "Ball Clock Simulator" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56F2BE8D1D4E2F3800F8FB26;
+			productRefGroup = 56F2BE971D4E2F3800F8FB26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56F2BE951D4E2F3800F8FB26 /* Ball Clock Simulator */,
+				56F2BEA61D4E2F3800F8FB26 /* Ball Clock SimulatorTests */,
+				56F2BEB11D4E2F3800F8FB26 /* Ball Clock SimulatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56F2BE941D4E2F3800F8FB26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5673AA7A1F7C77CF00A9EE26 /* BallClockSimulatorHelp in Resources */,
+				56F2BE9E1D4E2F3800F8FB26 /* Assets.xcassets in Resources */,
+				561807E11F78336600FB7A73 /* Ball Clock Simulator.entitlements in Resources */,
+				56F2BEA11D4E2F3800F8FB26 /* Main.storyboard in Resources */,
+				56B36D441D4E313600950F54 /* License.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56F2BEA51D4E2F3800F8FB26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56F2BEB01D4E2F3800F8FB26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56F2BE921D4E2F3800F8FB26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				563E983A1D4E2FC800101315 /* AlertSheetController.swift in Sources */,
+				563E983C1D4E300C00101315 /* BallClock.swift in Sources */,
+				56F2BE9C1D4E2F3800F8FB26 /* ViewController.swift in Sources */,
+				56F2BE9A1D4E2F3800F8FB26 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56F2BEA31D4E2F3800F8FB26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56F2BEAC1D4E2F3800F8FB26 /* Ball_Clock_SimulatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56F2BEAE1D4E2F3800F8FB26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56F2BEB71D4E2F3800F8FB26 /* Ball_Clock_SimulatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		56F2BEA91D4E2F3800F8FB26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56F2BE951D4E2F3800F8FB26 /* Ball Clock Simulator */;
+			targetProxy = 56F2BEA81D4E2F3800F8FB26 /* PBXContainerItemProxy */;
+		};
+		56F2BEB41D4E2F3800F8FB26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56F2BE951D4E2F3800F8FB26 /* Ball Clock Simulator */;
+			targetProxy = 56F2BEB31D4E2F3800F8FB26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		56F2BE9F1D4E2F3800F8FB26 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56F2BEA01D4E2F3800F8FB26 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		56F2BEB91D4E2F3800F8FB26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+			};
+			name = Debug;
+		};
+		56F2BEBA1D4E2F3800F8FB26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+			};
+			name = Release;
+		};
+		56F2BEBC1D4E2F3800F8FB26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Ball Clock Simulator/Ball Clock Simulator.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Ball Clock Simulator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.barkingcosmos.ballclocksimulator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		56F2BEBD1D4E2F3800F8FB26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Ball Clock Simulator/Ball Clock Simulator.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Ball Clock Simulator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.barkingcosmos.ballclocksimulator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		56F2BEBF1D4E2F3800F8FB26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Ball Clock SimulatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Barking-Cosmos.Ball-Clock-SimulatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ball Clock Simulator.app/Contents/MacOS/Ball Clock Simulator";
+			};
+			name = Debug;
+		};
+		56F2BEC01D4E2F3800F8FB26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Ball Clock SimulatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Barking-Cosmos.Ball-Clock-SimulatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ball Clock Simulator.app/Contents/MacOS/Ball Clock Simulator";
+			};
+			name = Release;
+		};
+		56F2BEC21D4E2F3800F8FB26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Ball Clock SimulatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Barking-Cosmos.Ball-Clock-SimulatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = "Ball Clock Simulator";
+			};
+			name = Debug;
+		};
+		56F2BEC31D4E2F3800F8FB26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Ball Clock SimulatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Barking-Cosmos.Ball-Clock-SimulatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = "Ball Clock Simulator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56F2BE911D4E2F3800F8FB26 /* Build configuration list for PBXProject "Ball Clock Simulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56F2BEB91D4E2F3800F8FB26 /* Debug */,
+				56F2BEBA1D4E2F3800F8FB26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56F2BEBB1D4E2F3800F8FB26 /* Build configuration list for PBXNativeTarget "Ball Clock Simulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56F2BEBC1D4E2F3800F8FB26 /* Debug */,
+				56F2BEBD1D4E2F3800F8FB26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56F2BEBE1D4E2F3800F8FB26 /* Build configuration list for PBXNativeTarget "Ball Clock SimulatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56F2BEBF1D4E2F3800F8FB26 /* Debug */,
+				56F2BEC01D4E2F3800F8FB26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56F2BEC11D4E2F3800F8FB26 /* Build configuration list for PBXNativeTarget "Ball Clock SimulatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56F2BEC21D4E2F3800F8FB26 /* Debug */,
+				56F2BEC31D4E2F3800F8FB26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56F2BE8E1D4E2F3800F8FB26 /* Project object */;
+}
