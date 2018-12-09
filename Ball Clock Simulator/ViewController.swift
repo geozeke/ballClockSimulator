@@ -3,7 +3,7 @@
 //  Ball Clock Simulator
 //
 //  Created by Peter Nardi on 07/31/16.
-//  Copyright (c) 2016, Peter Nardi
+//  Copyright (c) 2016-2018, Peter Nardi
 //  All rights reserved.
 //
 //  Redistribution and use in source and binary forms, with or without

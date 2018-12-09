@@ -11,6 +11,7 @@
 		563E983A1D4E2FC800101315 /* AlertSheetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563E98391D4E2FC800101315 /* AlertSheetController.swift */; };
 		563E983C1D4E300C00101315 /* BallClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563E983B1D4E300C00101315 /* BallClock.swift */; };
 		5673AA7A1F7C77CF00A9EE26 /* BallClockSimulatorHelp in Resources */ = {isa = PBXBuildFile; fileRef = 5673AA791F7C77C600A9EE26 /* BallClockSimulatorHelp */; };
+		568F147121BC956300F35E50 /* CustomWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568F147021BC956300F35E50 /* CustomWindow.swift */; };
 		56B36D441D4E313600950F54 /* License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 56B36D431D4E313600950F54 /* License.txt */; };
 		56F2BE9A1D4E2F3800F8FB26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F2BE991D4E2F3800F8FB26 /* AppDelegate.swift */; };
 		56F2BE9C1D4E2F3800F8FB26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F2BE9B1D4E2F3800F8FB26 /* ViewController.swift */; };
@@ -41,6 +42,7 @@
 		563E98391D4E2FC800101315 /* AlertSheetController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertSheetController.swift; sourceTree = "<group>"; };
 		563E983B1D4E300C00101315 /* BallClock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BallClock.swift; sourceTree = "<group>"; };
 		5673AA791F7C77C600A9EE26 /* BallClockSimulatorHelp */ = {isa = PBXFileReference; lastKnownFileType = folder; path = BallClockSimulatorHelp; sourceTree = "<group>"; };
+		568F147021BC956300F35E50 /* CustomWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomWindow.swift; sourceTree = "<group>"; };
 		56B36D431D4E313600950F54 /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
 		56DA87361D4EA1CB00237581 /* Ball Clock Simulator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Ball Clock Simulator.entitlements"; sourceTree = "<group>"; };
 		56F2BE961D4E2F3800F8FB26 /* Ball Clock Simulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ball Clock Simulator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,6 +87,7 @@
 		563E983D1D4E304300101315 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				568F147021BC956300F35E50 /* CustomWindow.swift */,
 				563E983B1D4E300C00101315 /* BallClock.swift */,
 			);
 			name = Classes;
@@ -298,6 +301,7 @@
 				563E983A1D4E2FC800101315 /* AlertSheetController.swift in Sources */,
 				563E983C1D4E300C00101315 /* BallClock.swift in Sources */,
 				56F2BE9C1D4E2F3800F8FB26 /* ViewController.swift in Sources */,
+				568F147121BC956300F35E50 /* CustomWindow.swift in Sources */,
 				56F2BE9A1D4E2F3800F8FB26 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
