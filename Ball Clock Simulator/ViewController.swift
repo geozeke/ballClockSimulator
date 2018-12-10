@@ -64,9 +64,16 @@ class ViewController: NSViewController, NSTableViewDataSource, NSTableViewDelega
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Start with Save and Save As menus disabled.  Save As will stay disabled through the program's run.
+        // Start with Save and Save As menus disabled.  Save As will stay disabled through the program's run.  Also, per Apple's
+        // HMI guidlines, if any menu functionality is not part of the application, those menu items should also be disabled.
+        
+        del!.menNew.isEnabled = false
         del!.menSave.isEnabled = false
         del!.menSaveAs.isEnabled = false
+        del!.menPrint.isEnabled = false
+        del!.menPrintSetup.isEnabled = false
+        del!.menOpen.isEnabled = false
+        del!.menOpenRecent.isEnabled = false
 
     }
     

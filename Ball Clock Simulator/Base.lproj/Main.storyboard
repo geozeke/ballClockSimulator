@@ -639,6 +639,11 @@
                 </application>
                 <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="Ball_Clock_Simulator" customModuleProvider="target">
                     <connections>
+                        <outlet property="menNew" destination="Was-JA-tGl" id="Wax-qI-VLp"/>
+                        <outlet property="menOpen" destination="IAo-SY-fd9" id="fWP-ai-il0"/>
+                        <outlet property="menOpenRecent" destination="tXI-mr-wws" id="IHb-zD-uAG"/>
+                        <outlet property="menPrint" destination="aTl-1u-JFS" id="jdv-ij-Kzj"/>
+                        <outlet property="menPrintSetup" destination="qIS-W8-SiK" id="0LF-sY-hpB"/>
                         <outlet property="menSave" destination="pxx-59-PXV" id="fGV-IQ-R1f"/>
                         <outlet property="menSaveAs" destination="Bw7-FT-i3A" id="t82-8U-DCo"/>
                     </connections>

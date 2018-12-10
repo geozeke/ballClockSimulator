@@ -39,6 +39,11 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     // Outlet to control Save menu state.
     @IBOutlet weak var menSave: NSMenuItem!
     @IBOutlet weak var menSaveAs: NSMenuItem!
+    @IBOutlet weak var menPrint: NSMenuItem!
+    @IBOutlet weak var menOpen: NSMenuItem!
+    @IBOutlet weak var menOpenRecent: NSMenuItem!
+    @IBOutlet weak var menNew: NSMenuItem!
+    @IBOutlet weak var menPrintSetup: NSMenuItem!
     
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialize your application
